@@ -1,0 +1,147 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Roboto Slab,Montserrat,Roboto,Helvetica,sans-serif;
+}
+
+.title{
+  text-align: center;
+  font-family: Roboto Slab,Montserrat,Roboto,Helvetica,sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.grid-container {
+  columns: 4 200px;
+  column-gap: 1.5rem;
+  width: 75%;
+  margin: 0 auto;
+
+}
+.grid-container .item {
+  width: 150px;
+  margin: 0 1.5rem 1.5rem 0;
+  display: inline-block;
+  width: 100%;
+  padding: 0px;
+  border-radius: 5px;
+}
+
+.item .label{
+  	font-family: bold Roboto Slab,Montserrat,Roboto,Helvetica,sans-serif;
+    font-size: 15px;
+}
+
+.item img {
+    width: 100%;
+    -webkit-transition: .8s opacity;
+    transition: .8s opacity;
+    border-radius: 5px;
+    transition: all .25s ease-in-out;
+}
+
+.grid-container div p {
+  margin: 5px 0;
+  padding: 0px;
+  text-align: center;
+  color:black;
+}
+
+.item-fade {
+  transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+  opacity: 0.5;
+  filter: grayscale(100%);
+}
+
+.tooltip {
+  position: fixed;
+  display: inline;
+  padding: 5px;
+  font: bold 12px Roboto Slab,Montserrat,Roboto,Helvetica,sans-serif;
+  border: none;
+  border-radius: 5px;
+  pointer-events: none;
+}
+/* cluster*/
+.left {
+    width:250px;
+    height:400px;
+    display: inline-block;
+    margin-left:50px;
+}
+.middle {
+    width:460px;
+    height:400px;
+    display: inline-block;
+}
+.right {
+    width:250px;
+    height:400px;
+    display: inline-block;
+}
+img {
+    width: 90%;
+    object-position: 50% 50%;
+}
+.details {
+    display: none;
+    line-height: 80%;
+}
+.details .bio{
+    font-size: 80%;
+    padding: 10px;
+    text-align: left;
+}
+.details span{
+    font-size: 100%;
+    color:rgba(210,210,210,1);
+}
+
+
+.bio h4 {
+    font-size: 80%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font: 12px Roboto Slab,Montserrat,Roboto,Helvetica,sans-serif;
+
+}
+
+.toggle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.button-all{
+    background-color: grey; /* Green */
+    color: white;
+    padding: 10px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    opacity: 0.4;
+}
+
+.button-selected{
+    background-color: grey; /* Green */
+    color: white;
+    padding: 10px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    opacity: 1;
+}
+
+.legend-dots:hover{
+  stroke-width: 5;
+}
+
+
+
