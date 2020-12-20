@@ -19,7 +19,7 @@ The dataset is collected using SPARQL service. Feature engineering is performed 
 
 #### Running 
 
-Download the repository and start up the server in that directory using the following command: 
+Download the repository and start up the server in src directory using the following command: 
 
 python -m http.serever 8000
  
