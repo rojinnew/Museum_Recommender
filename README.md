@@ -1,6 +1,6 @@
 ### Museum and Artwork Recommender 
 <p align = "justify">
-In this project, we built a recommendation system using a subset of museum data from Wikipedia. This recommendation tool captures the interest of users in terms of artworks and  helps users to decide which museum to visit next. The Jaccard distance, which measures the similarity between sample sets, is used to rank the similarity between the paintings. 
+In this project, we built a visual recommendation system using a subset of museum data from Wikipedia. This recommendation tool captures the interest of users in terms of artworks and  helps users to decide which museum to visit next. The Jaccard distance, which measures the similarity between sample sets, is used to rank the similarity between the paintings. 
 </p>
 <p align = "center">
 	<img src = "https://github.com/rojinnew/Museum_Recommender/blob/master/screen_shot.png">
