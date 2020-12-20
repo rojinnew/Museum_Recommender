@@ -23,7 +23,7 @@ Download the repository and start up the server in that directory using the foll
 
 python -m http.serever 8000
  
-Browse the website at this address  http://0.0.0.0:8000/
+Enter http://0.0.0.0:8000/ into the browser.
 #### References:
 
 (1) https://query.wikidata.org/
