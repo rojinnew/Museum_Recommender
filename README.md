@@ -9,13 +9,14 @@ The dataset is collected using SPARQL service. Feature engineering is performed 
 <p align = "center">
 	<img src = "https://github.com/rojinnew/Museum_Recommender/blob/master/data_collection_feature_engineering.png" width="500">
 </p>
+
 #### User Experience	
+
+<p align = "justify">
+User Experience: First, select the museum of your choice on the map of France. Next, choose your favorite painting to access cluster view. The color of each cluster represents the museum and the radius represents the similarity degree between favorite image and selected circle and its corresponding painting. As you click on each painting, the features that are similar between the two paintings are highlighted.  
 </p>
 <p align = "center">
 	<img src = "https://github.com/rojinnew/Museum_Recommender/blob/master/screen_shot.png">
-</p>
-<p align = "justify">
-User Experience: First, select the museum of your choice on the map of France. Next, choose your favorite painting to access cluster view. The color of each cluster represents the museum and the radius represents the similarity degree between favorite image and selected circle and its corresponding painting. As you click on each painting, the features that are similar between the two paintings are highlighted.  
 </p>
 
 #### Running 
