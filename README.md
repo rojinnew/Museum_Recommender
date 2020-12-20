@@ -1,5 +1,5 @@
 ### Museum and Artwork Recommender 
-<p align = "justify
+<p align = "justify">
 The tool is designed for any individual who appreciates arts and is interested in visiting museums. It is not easy to find and compare information on similar artworks at various museums. This recommendation tool captures the interest of users in terms of artworks and  helps users to decide which museum to visit next. The Jaccard distance, which measures the similarity between sample sets, is used to rank the similarity between the paintings. The tool also educates users about their interests through comparison of artworks.
 	
 #### Data Collection and Feature Engineering 
