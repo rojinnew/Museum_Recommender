@@ -5,8 +5,8 @@ In this project, we built a recommendation system using a subset of museum data 
 <p align = "center">
 	<img src = "https://github.com/rojinnew/Museum_Recommender/blob/master/screen_shot.png">
 </p>
-<p align = "center">
-First, select the museum of your choice on the map of France. Next, choose your favorite painting to access cluster view. The color of each cluster represents the museum and the radius represents the similarity degree between favorite image and selected circle and its corresponding painting. As you click on each painting, the features that are similar between the two paintings are highlighted.  
+<p align = "justify">
+User Exprience: First, select the museum of your choice on the map of France. Next, choose your favorite painting to access cluster view. The color of each cluster represents the museum and the radius represents the similarity degree between favorite image and selected circle and its corresponding painting. As you click on each painting, the features that are similar between the two paintings are highlighted.  
 </p>
 
 #### Data Collection and feature engineering 
